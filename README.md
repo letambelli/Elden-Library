@@ -1,2 +1,2 @@
-<h1>Sistema de Cadastro</h1>
-<p>Sistema de cadastro para usuários e entidades</p>
+<h1>Elden Library</h1>
+<p>Site de uma livraria</p>
