@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+    <h1>Cadastro de Pessoas</h1>
+    <form id="formCadastro">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="button" onclick="cadastrarPessoa()">Cadastrar</button>
+    </form>
+
+    <script>
+        class Pessoa {
+            constructor(nome, idade, email) {
+                this.nome = nome;
+                this.idade = idade;
+                this.email = email;
+            }
+        }
+
+        let pessoas = [];
+
+        function cadastrarPessoa() {
+            const nome = document.getElementById('nome').value;
+            const idade = parseInt(document.getElementById('idade').value);
+            const email = document.getElementById('email').value;
+
+            let novaPessoa = new Pessoa(nome, idade, email);
+            pessoas.push(novaPessoa);
+            salvarDados();
+        }
+
+        function salvarDados() {
+            const jsonData = JSON.stringify(pessoas);
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'salvar_json.php');
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(jsonData);
+            console.log('Dados salvos com sucesso em pessoas.json');
+        }
+
+    </script>
+</body>
+</html>
