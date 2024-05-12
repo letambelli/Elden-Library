@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #787878;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    align-items: end; 
+    margin-left: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.login {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: darkgoldenrod;
+}
+
+.login-container {
+    color: #fff;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: #555;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+.login-container a {
+    color: #fff;
+  }
+  
+button {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  }
+  
+button:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+  }
+
+.rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: black;
+    text-align: right;
+    position: absolute;
+    display: inline-flex;
+    bottom: 0%;
+    width: 100%;
+    gap: 100px;
+}
+
+.rodape h4 {
+    margin-inline-start: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.rodape a {
+    margin-right: 25px;
+}
+
