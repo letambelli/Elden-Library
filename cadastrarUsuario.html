@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="cadastrarUsuario.css">
+    <script src="cadastrarUsuario.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img class="logo" src="imagens/Logo.jpg" alt="Logo"></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a class="login" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Cadastrar Usuário</h2>
+            <form action="cadastrarSucesso.html" method="POST" id="formulario">
+                <div class="form-group">
+                    <label>Nome de Usuário:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+              
+                <div class="form-group">
+                    <label>Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Confirmar Senha:</label>
+                    <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+                </div>
+
+                <div class="button-container">
+                    <button class="voltar"><a href="config_adm.php">Voltar</a></button>
+                    <input class="limpar" type="reset" value="Limpar">
+                    <button onclick="cadastrar()" type="submit" value="enviar-cadastro" id="enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <div>
+                <h4>Nos encontre em nossas redes sociais: </h4>
+                <a href="https://www.facebook.com/eldenlibrary">Facebook</a>
+                <a href="https://twitter.com/eldenlibrary">Twitter</a>
+                <a href="https://www.instagram.com/eldenlibrary">Instagram</a>
+            </div>
+
+            <div>
+                <h4>Endereço: Rua dos Livros, nº 7</h4>
+                <h4>Cidade das Palavras, Elden</h4>
+            </div>
+
+            <div>
+                <h4>E-mail: eldenlibrary@gmail.com</h4>
+                
+            </div>
+
+            </div>
+    </footer>
+
+</body>
+</html>

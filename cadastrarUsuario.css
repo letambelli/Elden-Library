@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #787878;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    align-items: end; 
+    margin-left: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.container {
+    background-color: #555;
+    color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type="submit"],
+button {
+    width: 32%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+.voltar {
+    margin-left: 2%;
+    width: 32%;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voltar:hover {
+    background-color: darkred;
+}
+
+input[type="reset"].limpar {
+    width: 32%;
+    padding: 10px 20px;
+    background-color: rgb(199, 199, 36);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"].limpar:hover {
+    background-color: darkgoldenrod;
+}
+
+.rodape {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: black;
+    text-align: right;
+    position: absolute;
+    display: inline-flex;
+    bottom: 0%;
+    width: 100%;
+    gap: 100px;
+}
+
+.rodape h4 {
+    margin-inline-start: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.rodape a {
+    color: blue;
+    margin-right: 25px;
+}
+
