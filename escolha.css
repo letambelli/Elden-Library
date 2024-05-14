@@ -70,13 +70,13 @@ nav ul li a:hover {
     width: 500px;
   }
   
-  .login-container h1 {
+.login-container h1 {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  .login-container input[type="text"],
-  .login-container input[type="password"] {
+.login-container input[type="text"],
+.login-container input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -87,6 +87,7 @@ nav ul li a:hover {
 
 .login-container a {
     color: #fff;
+    text-decoration: none;
   }
   
 button {

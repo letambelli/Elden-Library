@@ -20,3 +20,27 @@ function validarFormulario() {
 
     return true;
 }
+
+document.getElementById("formulario").addEventListener("submit", function(event){
+    event.preventDefault();
+
+    if (!validarFormulario()) {
+        return;
+    }
+
+    var nome = document.getElementById("nome").value;
+    var senha = document.getElementById("senha").value;
+
+    var novoUsuario = {
+        nome: nome,
+        senha: senha
+    };
+
+    enviarDados(novoUsuario);
+});
+
+function enviarDados(usuario) {
+    console.log(usuario);
+    alert("Usuário cadastrado com sucesso!");
+    window.location.href = "login.html";   
+}

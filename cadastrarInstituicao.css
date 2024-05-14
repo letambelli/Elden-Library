@@ -13,6 +13,7 @@ body {
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
 .logo {
@@ -85,8 +86,15 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-.button-container a {
-    text-decoration: none;
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
   
 input[type="submit"],
@@ -141,7 +149,7 @@ input[type="reset"].limpar:hover {
     background-color: #fff;
     color: black;
     text-align: right;
-    position: absolute;
+    position:-webkit-sticky;
     display: inline-flex;
     bottom: 0%;
     width: 100%;
