@@ -21,29 +21,29 @@ No caso da Elden Library, o site usa HTML, CSS e javascript para apresentar uma 
 
 ### Tela Inicial (index)
 
-[Pagina Inicial](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20133948.png)
+![Pagina Inicial](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20133948.png)
 
 
 ### Sobre Nós
 
-![Sobre Nós](./img_readme/Captura%20de%20tela%202025-11-11%20133957.png)
+![Sobre Nós](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20133957.png)
 
 
 ### Login
 
-[Login](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134006.png)
+![Login](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134006.png)
 
 
 ### Cadastrar Como
 
-[Cadastrar Como](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134029.png)
+![Cadastrar Como](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134029.png)
 
 
 ### Cadastrar Usuário
 
-[Cadastrar Usuário](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134036.png)
+![Cadastrar Usuário](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134036.png)
 
 
 ### Cadastrar Entidade
 
-[Cadastrar Entidade](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134117.png)
+![Cadastrar Entidade](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20134117.png)
