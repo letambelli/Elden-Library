@@ -26,7 +26,7 @@ No caso da Elden Library, o site usa HTML, CSS e javascript para apresentar uma 
 
 ### Sobre Nós
 
-[Sobre Nós](./imagens/img_readme/Captura%20de%20tela%202025-11-11%20133957.png)
+[Sobre Nós](./img_readme/Captura%20de%20tela%202025-11-11%20133957.png)
 
 
 ### Login
