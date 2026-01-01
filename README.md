@@ -1,6 +1,6 @@
 # Elden Library
 
-Este site foi desenvolvido como parte do projeto da disciplina de Programação Front-end, sendo uma apicação simples que simula um site de uma livraria usando HTML, CSS e javascript.
+Este site foi desenvolvido como parte do projeto da disciplina de Programação Front-end (3º semestre), sendo uma apicação simples que simula um site de uma livraria usando HTML, CSS e javascript.
 
 
 ## Objetivo
